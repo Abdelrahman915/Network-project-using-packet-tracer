@@ -56,6 +56,6 @@ A user account has been created with the following login credentials:
 - Username: Admin
 - Password: heisenberg
 
--This account grants administrative access to the network devices and should only be used by authorized personnel.
+This account grants administrative access to the network devices and should only be used by authorized personnel.
 
 I Hope this brief report is helpful for understanding the network configuration :) 
