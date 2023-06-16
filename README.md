@@ -36,17 +36,17 @@ The network is divided into three different subnets, each corresponding to a sep
   - VLANs:
     - 10: Accounting VLAN
     - 20: Employee VLAN
-    - 30: Guest VLAN
+    - 30: Guest VLAN [Native VLAN]
 
 - Subnet 2:
   - VLANs:
     - 10: Human Resources VLAN
-    - 20: Guest VLAN
+    - 20: Guest VLAN [Native VLAN]
 
 - Subnet 3:
   - VLANs:
     - 10: CEO VLAN
-    - 20: Guest VLAN
+    - 20: Guest VLAN [Native VLAN]
 
 ## Inter-Subnet Communication
 All switches within each subnet are connected to a router, and the three routers are interconnected to enable communication between devices in different subnets. This allows devices from different subnets to send packets to each other, facilitating seamless communication between departments. For example, a device in Subnet 1 can ping a device in Subnet 2.
